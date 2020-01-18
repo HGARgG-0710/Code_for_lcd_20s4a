@@ -6,13 +6,13 @@ void setup()
 {
   lcd.begin(20, 4);
   lcd.setCursor(0, 0);
-  lcd.print("Жил на свете человек");
+  lcd.print("There was a man");
   lcd.setCursor(0, 1);
-  lcd.print("Жик-Форель-АрмяноХэт");
+  lcd.print("Whose name was Borya");
   lcd.setCursor(0, 2);
-  lcd.print("ЧтоУжЕст Жик-Форель?");
+  lcd.print("What does he eat?");
   lcd.setCursor(0, 3);
-  lcd.print("Доширакиs и свирель!");
+  lcd.print("A lot of bullets!");
 }
 
 void loop() 
